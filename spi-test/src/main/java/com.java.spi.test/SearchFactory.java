@@ -15,6 +15,7 @@ public class SearchFactory {
 
     public static Search newSearch() {
         Search search = null;
+        //只会读取第一个文件的第一行
         ServiceLoader<Search> serviceLoader = ServiceLoader.load(Search.class);
         Iterator<Search> searchs = serviceLoader.iterator();
         if (searchs.hasNext()) {
