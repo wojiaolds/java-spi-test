@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--控制台日志 -->
+
+
+    <!--错误全日志 -->
+
+
+    <!--service日志 -->
+
+
+    <!--控制器入口日志 -->
+
+    <!-- dao日志-->
+
+
+    <!--service -->
+
+
+    <!-- web -->
+
+
+
+</configuration>

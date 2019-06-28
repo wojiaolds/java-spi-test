@@ -1,6 +1,8 @@
 package com.java.spi.test;
 
 import com.java.spi.common.Search;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
@@ -11,6 +13,9 @@ import java.util.List;
 public class SearchTest {
 
     public static void main(String[] args) {
+        
+        Logger logger = LoggerFactory.getLogger (SearchTest.class);
+        
         //通过消除或修改为pom.xml文件中的spi-demo-a或spi-demo-b即可见到效果
         while(true){
             Search search = SearchFactory.newSearch();
