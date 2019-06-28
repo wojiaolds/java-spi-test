@@ -1,8 +1,10 @@
-package com.java.spi.test;
+package com.spi.test;
 
-import com.java.spi.common.Search;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.spi.common.Search;
+
 
 import java.util.List;
 

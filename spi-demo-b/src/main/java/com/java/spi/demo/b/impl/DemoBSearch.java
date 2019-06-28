@@ -1,6 +1,6 @@
 package com.java.spi.demo.b.impl;
 
-import com.java.spi.common.Search;
+import com.spi.common.Search;
 
 import java.util.Collections;
 import java.util.List;

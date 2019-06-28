@@ -1,4 +1,4 @@
-package com.java.spi.common;
+package com.spi.common;
 
 import java.util.List;
 

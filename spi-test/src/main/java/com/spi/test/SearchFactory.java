@@ -1,6 +1,6 @@
-package com.java.spi.test;
+package com.spi.test;
 
-import com.java.spi.common.Search;
+import com.spi.common.Search;
 
 import java.util.Iterator;
 import java.util.ServiceLoader;

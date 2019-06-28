@@ -1,6 +1,6 @@
-package com.java.spi.common.impl;
+package com.spi.common.impl;
 
-import com.java.spi.common.Search;
+import com.spi.common.Search;
 
 import java.util.List;
 
